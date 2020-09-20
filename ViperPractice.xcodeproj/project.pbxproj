@@ -3,17 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C7D91F1BB9A032928B13C5E /* Pods_ViperPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15332D8B699C742995FBF25B /* Pods_ViperPracticeTests.framework */; };
+		720C6D3425174522001A6AAF /* NaverListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720C6D3325174522001A6AAF /* NaverListController.swift */; };
+		7239A59025149C920045F77B /* NetflixListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7239A58F25149C920045F77B /* NetflixListController.swift */; };
+		7239A5962514A6660045F77B /* NetflixListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7239A5952514A6660045F77B /* NetflixListWireframe.swift */; };
+		7239A5982514A6CB0045F77B /* NetflixListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7239A5972514A6CB0045F77B /* NetflixListProtocols.swift */; };
+		724FC5F3250F58AC002598C2 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724FC5F2250F58AC002598C2 /* DataModel.swift */; };
 		725B5CFA250F2FFE0035DE51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B5CF9250F2FFE0035DE51 /* AppDelegate.swift */; };
-		725B5CFC250F2FFE0035DE51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B5CFB250F2FFE0035DE51 /* SceneDelegate.swift */; };
-		725B5CFE250F2FFE0035DE51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B5CFD250F2FFE0035DE51 /* ViewController.swift */; };
-		725B5D01250F2FFE0035DE51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B5CFF250F2FFE0035DE51 /* Main.storyboard */; };
+		725B5CFE250F2FFE0035DE51 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B5CFD250F2FFE0035DE51 /* SplashViewController.swift */; };
 		725B5D03250F30000035DE51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725B5D02250F30000035DE51 /* Assets.xcassets */; };
 		725B5D06250F30000035DE51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B5D04250F30000035DE51 /* LaunchScreen.storyboard */; };
 		725B5D11250F30000035DE51 /* ViperPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B5D10250F30000035DE51 /* ViperPracticeTests.swift */; };
+		7270DE1D2511DBFF00D83798 /* InfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7270DE1C2511DBFF00D83798 /* InfoData.swift */; };
+		72B38E71251325F700B96D6F /* SplashViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B38E70251325F700B96D6F /* SplashViewProtocols.swift */; };
+		72B38E7425132C0500B96D6F /* SplashWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B38E7325132C0500B96D6F /* SplashWireframe.swift */; };
+		72B38E7625133B5900B96D6F /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B38E7525133B5900B96D6F /* SplashInteractor.swift */; };
+		72B38E7925133B7500B96D6F /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B38E7825133B7500B96D6F /* SplashPresenter.swift */; };
+		72C18AAA2514FE2000158FBF /* NetflixListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C18AA92514FE2000158FBF /* NetflixListPresenter.swift */; };
+		72C18AAC2514FF6C00158FBF /* NetflixListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C18AAB2514FF6C00158FBF /* NetflixListInteractor.swift */; };
+		72CAAA84251761290037E814 /* NaverListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAAA83251761290037E814 /* NaverListProtocols.swift */; };
+		72CAAA882517613B0037E814 /* NaverListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAAA872517613B0037E814 /* NaverListPresenter.swift */; };
+		72CAAA8C251762390037E814 /* NaverListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAAA8B251762390037E814 /* NaverListWireframe.swift */; };
+		72CAAA902517624B0037E814 /* NaverListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CAAA8F2517624B0037E814 /* NaverListInteractor.swift */; };
+		7C3460A03473E92943BD0900 /* Pods_ViperPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F890F0D7D1C6D0DFBA4A6AA /* Pods_ViperPractice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +43,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04F5A3BF84C17FE65E72F90E /* Pods-ViperPracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperPracticeTests.release.xcconfig"; path = "Target Support Files/Pods-ViperPracticeTests/Pods-ViperPracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		15332D8B699C742995FBF25B /* Pods_ViperPracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperPracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC1B5E8E43F54C2D1D52134 /* Pods-ViperPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperPractice.debug.xcconfig"; path = "Target Support Files/Pods-ViperPractice/Pods-ViperPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		4F890F0D7D1C6D0DFBA4A6AA /* Pods_ViperPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		720C6D3325174522001A6AAF /* NaverListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverListController.swift; sourceTree = "<group>"; };
+		7239A58F25149C920045F77B /* NetflixListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixListController.swift; sourceTree = "<group>"; };
+		7239A5952514A6660045F77B /* NetflixListWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixListWireframe.swift; sourceTree = "<group>"; };
+		7239A5972514A6CB0045F77B /* NetflixListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixListProtocols.swift; sourceTree = "<group>"; };
+		724FC5F2250F58AC002598C2 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		725B5CF6250F2FFE0035DE51 /* ViperPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		725B5CF9250F2FFE0035DE51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		725B5CFB250F2FFE0035DE51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		725B5CFD250F2FFE0035DE51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		725B5D00250F2FFE0035DE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		725B5CFD250F2FFE0035DE51 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		725B5D02250F30000035DE51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		725B5D05250F30000035DE51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		725B5D07250F30000035DE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		725B5D0C250F30000035DE51 /* ViperPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		725B5D10250F30000035DE51 /* ViperPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperPracticeTests.swift; sourceTree = "<group>"; };
 		725B5D12250F30000035DE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7270DE1C2511DBFF00D83798 /* InfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoData.swift; sourceTree = "<group>"; };
+		72B38E70251325F700B96D6F /* SplashViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewProtocols.swift; sourceTree = "<group>"; };
+		72B38E7325132C0500B96D6F /* SplashWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashWireframe.swift; sourceTree = "<group>"; };
+		72B38E7525133B5900B96D6F /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		72B38E7825133B7500B96D6F /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		72C18AA92514FE2000158FBF /* NetflixListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixListPresenter.swift; sourceTree = "<group>"; };
+		72C18AAB2514FF6C00158FBF /* NetflixListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixListInteractor.swift; sourceTree = "<group>"; };
+		72CAAA83251761290037E814 /* NaverListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverListProtocols.swift; sourceTree = "<group>"; };
+		72CAAA872517613B0037E814 /* NaverListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverListPresenter.swift; sourceTree = "<group>"; };
+		72CAAA8B251762390037E814 /* NaverListWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverListWireframe.swift; sourceTree = "<group>"; };
+		72CAAA8F2517624B0037E814 /* NaverListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverListInteractor.swift; sourceTree = "<group>"; };
+		8E28CE1574B5BA40320339C0 /* Pods-ViperPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperPracticeTests.debug.xcconfig"; path = "Target Support Files/Pods-ViperPracticeTests/Pods-ViperPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		913789CB721A8D985AE2221D /* Pods-ViperPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperPractice.release.xcconfig"; path = "Target Support Files/Pods-ViperPractice/Pods-ViperPractice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C3460A03473E92943BD0900 /* Pods_ViperPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +89,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7D91F1BB9A032928B13C5E /* Pods_ViperPracticeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		720C6D312517450F001A6AAF /* naverlist */ = {
+			isa = PBXGroup;
+			children = (
+				72CAAA822517607C0037E814 /* interactor */,
+				72CAAA81251760700037E814 /* wireframe */,
+				72CAAA80251760630037E814 /* presenter */,
+				72CAAA7F251760570037E814 /* protocols */,
+				720C6D3225174515001A6AAF /* view */,
+			);
+			path = naverlist;
+			sourceTree = "<group>";
+		};
+		720C6D3225174515001A6AAF /* view */ = {
+			isa = PBXGroup;
+			children = (
+				720C6D3325174522001A6AAF /* NaverListController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7239A59125149C9B0045F77B /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				72C18AAB2514FF6C00158FBF /* NetflixListInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		7239A59225149CA40045F77B /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				72C18AA92514FE2000158FBF /* NetflixListPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		7239A59325149CB10045F77B /* wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				7239A5952514A6660045F77B /* NetflixListWireframe.swift */,
+			);
+			path = wireframe;
+			sourceTree = "<group>";
+		};
+		7239A5942514A4B90045F77B /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7239A5972514A6CB0045F77B /* NetflixListProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
 		725B5CED250F2FFE0035DE51 = {
 			isa = PBXGroup;
 			children = (
 				725B5CF8250F2FFE0035DE51 /* ViperPractice */,
 				725B5D0F250F30000035DE51 /* ViperPracticeTests */,
 				725B5CF7250F2FFE0035DE51 /* Products */,
+				BC495E6D201E6F40B13789B1 /* Pods */,
+				D984E49CE21F7A32670406B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +171,11 @@
 		725B5CF8250F2FFE0035DE51 /* ViperPractice */ = {
 			isa = PBXGroup;
 			children = (
+				720C6D312517450F001A6AAF /* naverlist */,
+				7270DE2425120B3400D83798 /* netflixlist */,
+				7270DE2325120B1300D83798 /* splash */,
+				7270DE202512079800D83798 /* entity */,
 				725B5CF9250F2FFE0035DE51 /* AppDelegate.swift */,
-				725B5CFB250F2FFE0035DE51 /* SceneDelegate.swift */,
-				725B5CFD250F2FFE0035DE51 /* ViewController.swift */,
-				725B5CFF250F2FFE0035DE51 /* Main.storyboard */,
 				725B5D02250F30000035DE51 /* Assets.xcassets */,
 				725B5D04250F30000035DE51 /* LaunchScreen.storyboard */,
 				725B5D07250F30000035DE51 /* Info.plist */,
@@ -99,6 +192,139 @@
 			path = ViperPracticeTests;
 			sourceTree = "<group>";
 		};
+		7270DE202512079800D83798 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				7270DE1C2511DBFF00D83798 /* InfoData.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		7270DE21251207A400D83798 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				724FC5F2250F58AC002598C2 /* DataModel.swift */,
+				72B38E7525133B5900B96D6F /* SplashInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		7270DE22251209BB00D83798 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				725B5CFD250F2FFE0035DE51 /* SplashViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7270DE2325120B1300D83798 /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				72B38E7725133B6000B96D6F /* presenter */,
+				72B38E7225132BE700B96D6F /* wireframe */,
+				72B38E6F251324AD00B96D6F /* protocols */,
+				7270DE21251207A400D83798 /* interactor */,
+				7270DE22251209BB00D83798 /* view */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		7270DE2425120B3400D83798 /* netflixlist */ = {
+			isa = PBXGroup;
+			children = (
+				7239A5942514A4B90045F77B /* protocols */,
+				7239A59225149CA40045F77B /* presenter */,
+				7239A59325149CB10045F77B /* wireframe */,
+				7239A59125149C9B0045F77B /* interactor */,
+				72B38E7A25135E5B00B96D6F /* view */,
+			);
+			path = netflixlist;
+			sourceTree = "<group>";
+		};
+		72B38E6F251324AD00B96D6F /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				72B38E70251325F700B96D6F /* SplashViewProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		72B38E7225132BE700B96D6F /* wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				72B38E7325132C0500B96D6F /* SplashWireframe.swift */,
+			);
+			path = wireframe;
+			sourceTree = "<group>";
+		};
+		72B38E7725133B6000B96D6F /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				72B38E7825133B7500B96D6F /* SplashPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		72B38E7A25135E5B00B96D6F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7239A58F25149C920045F77B /* NetflixListController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		72CAAA7F251760570037E814 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				72CAAA83251761290037E814 /* NaverListProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		72CAAA80251760630037E814 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				72CAAA872517613B0037E814 /* NaverListPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		72CAAA81251760700037E814 /* wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				72CAAA8B251762390037E814 /* NaverListWireframe.swift */,
+			);
+			path = wireframe;
+			sourceTree = "<group>";
+		};
+		72CAAA822517607C0037E814 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				72CAAA8F2517624B0037E814 /* NaverListInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		BC495E6D201E6F40B13789B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1B5E8E43F54C2D1D52134 /* Pods-ViperPractice.debug.xcconfig */,
+				913789CB721A8D985AE2221D /* Pods-ViperPractice.release.xcconfig */,
+				8E28CE1574B5BA40320339C0 /* Pods-ViperPracticeTests.debug.xcconfig */,
+				04F5A3BF84C17FE65E72F90E /* Pods-ViperPracticeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D984E49CE21F7A32670406B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F890F0D7D1C6D0DFBA4A6AA /* Pods_ViperPractice.framework */,
+				15332D8B699C742995FBF25B /* Pods_ViperPracticeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +332,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 725B5D15250F30000035DE51 /* Build configuration list for PBXNativeTarget "ViperPractice" */;
 			buildPhases = (
+				92AE8B5368CFE0A87A29F527 /* [CP] Check Pods Manifest.lock */,
 				725B5CF2250F2FFE0035DE51 /* Sources */,
 				725B5CF3250F2FFE0035DE51 /* Frameworks */,
 				725B5CF4250F2FFE0035DE51 /* Resources */,
+				1C19599BC13C30AE710B4537 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +351,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 725B5D18250F30000035DE51 /* Build configuration list for PBXNativeTarget "ViperPracticeTests" */;
 			buildPhases = (
+				8DFCE3904D96224CCC572AA7 /* [CP] Check Pods Manifest.lock */,
 				725B5D08250F30000035DE51 /* Sources */,
 				725B5D09250F30000035DE51 /* Frameworks */,
 				725B5D0A250F30000035DE51 /* Resources */,
@@ -182,7 +411,6 @@
 			files = (
 				725B5D06250F30000035DE51 /* LaunchScreen.storyboard in Resources */,
 				725B5D03250F30000035DE51 /* Assets.xcassets in Resources */,
-				725B5D01250F2FFE0035DE51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +423,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C19599BC13C30AE710B4537 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViperPractice/Pods-ViperPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViperPractice/Pods-ViperPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViperPractice/Pods-ViperPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DFCE3904D96224CCC572AA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViperPracticeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92AE8B5368CFE0A87A29F527 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViperPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		725B5CF2250F2FFE0035DE51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				725B5CFE250F2FFE0035DE51 /* ViewController.swift in Sources */,
+				7270DE1D2511DBFF00D83798 /* InfoData.swift in Sources */,
+				72CAAA902517624B0037E814 /* NaverListInteractor.swift in Sources */,
+				72CAAA84251761290037E814 /* NaverListProtocols.swift in Sources */,
+				72B38E7625133B5900B96D6F /* SplashInteractor.swift in Sources */,
+				72CAAA882517613B0037E814 /* NaverListPresenter.swift in Sources */,
+				72CAAA8C251762390037E814 /* NaverListWireframe.swift in Sources */,
+				725B5CFE250F2FFE0035DE51 /* SplashViewController.swift in Sources */,
+				72B38E7925133B7500B96D6F /* SplashPresenter.swift in Sources */,
+				720C6D3425174522001A6AAF /* NaverListController.swift in Sources */,
+				7239A5982514A6CB0045F77B /* NetflixListProtocols.swift in Sources */,
 				725B5CFA250F2FFE0035DE51 /* AppDelegate.swift in Sources */,
-				725B5CFC250F2FFE0035DE51 /* SceneDelegate.swift in Sources */,
+				7239A5962514A6660045F77B /* NetflixListWireframe.swift in Sources */,
+				72C18AAA2514FE2000158FBF /* NetflixListPresenter.swift in Sources */,
+				72B38E71251325F700B96D6F /* SplashViewProtocols.swift in Sources */,
+				7239A59025149C920045F77B /* NetflixListController.swift in Sources */,
+				724FC5F3250F58AC002598C2 /* DataModel.swift in Sources */,
+				72B38E7425132C0500B96D6F /* SplashWireframe.swift in Sources */,
+				72C18AAC2514FF6C00158FBF /* NetflixListInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +532,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		725B5CFF250F2FFE0035DE51 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				725B5D00250F2FFE0035DE51 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		725B5D04250F30000035DE51 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +593,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +647,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -360,6 +659,7 @@
 		};
 		725B5D16250F30000035DE51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC1B5E8E43F54C2D1D52134 /* Pods-ViperPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,6 +677,7 @@
 		};
 		725B5D17250F30000035DE51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 913789CB721A8D985AE2221D /* Pods-ViperPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +695,7 @@
 		};
 		725B5D19250F30000035DE51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E28CE1574B5BA40320339C0 /* Pods-ViperPracticeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +717,7 @@
 		};
 		725B5D1A250F30000035DE51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F5A3BF84C17FE65E72F90E /* Pods-ViperPracticeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
