@@ -21,9 +21,6 @@ class NetflixListController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .black
-        for i in 0 ..< netflixlist!.count{
-            print(netflixlist![i]._drama)
-        }
         setTableViewUI()
         presenter?.viewDidLoad()
         
