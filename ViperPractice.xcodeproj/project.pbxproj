@@ -12,6 +12,11 @@
 		7239A59025149C920045F77B /* NetflixListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7239A58F25149C920045F77B /* NetflixListController.swift */; };
 		7239A5962514A6660045F77B /* NetflixListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7239A5952514A6660045F77B /* NetflixListWireframe.swift */; };
 		7239A5982514A6CB0045F77B /* NetflixListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7239A5972514A6CB0045F77B /* NetflixListProtocols.swift */; };
+		724F89282518760400A5DF0E /* InstaListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724F89272518760400A5DF0E /* InstaListController.swift */; };
+		724F89302518768F00A5DF0E /* InstaListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724F892F2518768F00A5DF0E /* InstaListProtocols.swift */; };
+		724F8934251877CC00A5DF0E /* InstaListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724F8933251877CC00A5DF0E /* InstaListInteractor.swift */; };
+		724F89382518780700A5DF0E /* InstaListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724F89372518780700A5DF0E /* InstaListWireFrame.swift */; };
+		724F893C2518784F00A5DF0E /* InstaListPreseneter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724F893B2518784F00A5DF0E /* InstaListPreseneter.swift */; };
 		724FC5F3250F58AC002598C2 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724FC5F2250F58AC002598C2 /* DataModel.swift */; };
 		725B5CFA250F2FFE0035DE51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B5CF9250F2FFE0035DE51 /* AppDelegate.swift */; };
 		725B5CFE250F2FFE0035DE51 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B5CFD250F2FFE0035DE51 /* SplashViewController.swift */; };
@@ -51,6 +56,11 @@
 		7239A58F25149C920045F77B /* NetflixListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixListController.swift; sourceTree = "<group>"; };
 		7239A5952514A6660045F77B /* NetflixListWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixListWireframe.swift; sourceTree = "<group>"; };
 		7239A5972514A6CB0045F77B /* NetflixListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixListProtocols.swift; sourceTree = "<group>"; };
+		724F89272518760400A5DF0E /* InstaListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaListController.swift; sourceTree = "<group>"; };
+		724F892F2518768F00A5DF0E /* InstaListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaListProtocols.swift; sourceTree = "<group>"; };
+		724F8933251877CC00A5DF0E /* InstaListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaListInteractor.swift; sourceTree = "<group>"; };
+		724F89372518780700A5DF0E /* InstaListWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaListWireFrame.swift; sourceTree = "<group>"; };
+		724F893B2518784F00A5DF0E /* InstaListPreseneter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaListPreseneter.swift; sourceTree = "<group>"; };
 		724FC5F2250F58AC002598C2 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		725B5CF6250F2FFE0035DE51 /* ViperPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		725B5CF9250F2FFE0035DE51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,10 +109,10 @@
 		720C6D312517450F001A6AAF /* naverlist */ = {
 			isa = PBXGroup;
 			children = (
-				72CAAA822517607C0037E814 /* interactor */,
-				72CAAA81251760700037E814 /* wireframe */,
 				72CAAA80251760630037E814 /* presenter */,
+				72CAAA81251760700037E814 /* wireframe */,
 				72CAAA7F251760570037E814 /* protocols */,
+				72CAAA822517607C0037E814 /* interactor */,
 				720C6D3225174515001A6AAF /* view */,
 			);
 			path = naverlist;
@@ -148,6 +158,58 @@
 			path = protocols;
 			sourceTree = "<group>";
 		};
+		724F89212518758200A5DF0E /* instalist */ = {
+			isa = PBXGroup;
+			children = (
+				724F8926251875EE00A5DF0E /* presenter */,
+				724F8925251875E600A5DF0E /* wireframe */,
+				724F8924251875E000A5DF0E /* protocols */,
+				724F8923251875D800A5DF0E /* interactor */,
+				724F8922251875D300A5DF0E /* view */,
+			);
+			path = instalist;
+			sourceTree = "<group>";
+		};
+		724F8922251875D300A5DF0E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				724F89272518760400A5DF0E /* InstaListController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		724F8923251875D800A5DF0E /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				724F8933251877CC00A5DF0E /* InstaListInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		724F8924251875E000A5DF0E /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				724F892F2518768F00A5DF0E /* InstaListProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		724F8925251875E600A5DF0E /* wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				724F89372518780700A5DF0E /* InstaListWireFrame.swift */,
+			);
+			path = wireframe;
+			sourceTree = "<group>";
+		};
+		724F8926251875EE00A5DF0E /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				724F893B2518784F00A5DF0E /* InstaListPreseneter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
 		725B5CED250F2FFE0035DE51 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +233,7 @@
 		725B5CF8250F2FFE0035DE51 /* ViperPractice */ = {
 			isa = PBXGroup;
 			children = (
+				724F89212518758200A5DF0E /* instalist */,
 				720C6D312517450F001A6AAF /* naverlist */,
 				7270DE2425120B3400D83798 /* netflixlist */,
 				7270DE2325120B1300D83798 /* splash */,
@@ -232,9 +295,9 @@
 		7270DE2425120B3400D83798 /* netflixlist */ = {
 			isa = PBXGroup;
 			children = (
-				7239A5942514A4B90045F77B /* protocols */,
 				7239A59225149CA40045F77B /* presenter */,
 				7239A59325149CB10045F77B /* wireframe */,
+				7239A5942514A4B90045F77B /* protocols */,
 				7239A59125149C9B0045F77B /* interactor */,
 				72B38E7A25135E5B00B96D6F /* view */,
 			);
@@ -496,15 +559,20 @@
 				72CAAA902517624B0037E814 /* NaverListInteractor.swift in Sources */,
 				72CAAA84251761290037E814 /* NaverListProtocols.swift in Sources */,
 				72B38E7625133B5900B96D6F /* SplashInteractor.swift in Sources */,
+				724F893C2518784F00A5DF0E /* InstaListPreseneter.swift in Sources */,
+				724F89282518760400A5DF0E /* InstaListController.swift in Sources */,
 				72CAAA882517613B0037E814 /* NaverListPresenter.swift in Sources */,
 				72CAAA8C251762390037E814 /* NaverListWireframe.swift in Sources */,
+				724F89302518768F00A5DF0E /* InstaListProtocols.swift in Sources */,
 				725B5CFE250F2FFE0035DE51 /* SplashViewController.swift in Sources */,
 				72B38E7925133B7500B96D6F /* SplashPresenter.swift in Sources */,
+				724F8934251877CC00A5DF0E /* InstaListInteractor.swift in Sources */,
 				720C6D3425174522001A6AAF /* NaverListController.swift in Sources */,
 				7239A5982514A6CB0045F77B /* NetflixListProtocols.swift in Sources */,
 				725B5CFA250F2FFE0035DE51 /* AppDelegate.swift in Sources */,
 				7239A5962514A6660045F77B /* NetflixListWireframe.swift in Sources */,
 				72C18AAA2514FE2000158FBF /* NetflixListPresenter.swift in Sources */,
+				724F89382518780700A5DF0E /* InstaListWireFrame.swift in Sources */,
 				72B38E71251325F700B96D6F /* SplashViewProtocols.swift in Sources */,
 				7239A59025149C920045F77B /* NetflixListController.swift in Sources */,
 				724FC5F3250F58AC002598C2 /* DataModel.swift in Sources */,
