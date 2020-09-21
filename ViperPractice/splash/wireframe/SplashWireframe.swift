@@ -30,15 +30,24 @@ class SplashWireframe: SplashWireFrameProtocol{
         //TODO present screen
         let tabBarController = UITabBarController()
         tabBarController.modalPresentationStyle = .fullScreen
+        
         if let sourceView = view as? UIViewController{
             sourceView.present(tabBarController, animated: true, completion: nil)
         }
+        
         let netFlixListView = NetflixListWireframe.createMainViewModule(netflixlist: netflixlist)
         tabBarController.addChild(netFlixListView)
-        netFlixListView.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
+        netFlixListView.tabBarItem = UITabBarItem(title: "NetFlix", image: UIImage(), tag: 0)
+        
         let naverListView = NaverListWireframe.createMainViewModule(naverList: naverList)
         tabBarController.addChild(naverListView)
-        naverListView.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 1)
+        naverListView.tabBarItem = UITabBarItem(title: "naver", image:  UIImage(), tag: 1)
+    
+        let instaListView = InstaListWireFrame.createSpalshModule(instaList: instaList)
+        tabBarController.addChild(instaListView)
+        instaListView.tabBarItem = UITabBarItem(title: "insta", image:  UIImage(), tag: 2)
+        
+        
     }
     
 }

@@ -15,8 +15,13 @@ class NaverListPresenter: NaverListPresenterProtocol{
     var wireFrame: NaverListWireFrameProtocol?
     
     func viewDidLoad() {
-        
+        view?.showPost()
     }
     
-    
+}
+
+extension NaverListPresenter: NaverListInteractorOutputProtocol{
+    func giveData() {
+        
+    }
 }

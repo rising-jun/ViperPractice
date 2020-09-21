@@ -16,7 +16,6 @@ class NetflixListPresenter: NetflixListPresenterProtocol{
     
     func viewDidLoad() {
         view?.showPost()
-        print("viewdidLost")
     }
     
 }
