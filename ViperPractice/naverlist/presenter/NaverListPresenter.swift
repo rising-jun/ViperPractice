@@ -16,6 +16,7 @@ class NaverListPresenter: NaverListPresenterProtocol{
     
     func viewDidLoad() {
         view?.showPost()
+        
     }
     
 }

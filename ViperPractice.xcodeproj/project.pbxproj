@@ -399,7 +399,6 @@
 				725B5CF2250F2FFE0035DE51 /* Sources */,
 				725B5CF3250F2FFE0035DE51 /* Frameworks */,
 				725B5CF4250F2FFE0035DE51 /* Resources */,
-				1C19599BC13C30AE710B4537 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -418,6 +417,7 @@
 				725B5D08250F30000035DE51 /* Sources */,
 				725B5D09250F30000035DE51 /* Frameworks */,
 				725B5D0A250F30000035DE51 /* Resources */,
+				0DC17E20B3D704851F6D25F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -487,21 +487,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1C19599BC13C30AE710B4537 /* [CP] Embed Pods Frameworks */ = {
+		0DC17E20B3D704851F6D25F9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ViperPractice/Pods-ViperPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ViperPracticeTests/Pods-ViperPracticeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ViperPractice/Pods-ViperPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ViperPracticeTests/Pods-ViperPracticeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViperPractice/Pods-ViperPractice-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViperPracticeTests/Pods-ViperPracticeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8DFCE3904D96224CCC572AA7 /* [CP] Check Pods Manifest.lock */ = {

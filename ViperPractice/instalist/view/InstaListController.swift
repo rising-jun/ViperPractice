@@ -18,8 +18,7 @@ class InstaListController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .purple
-        setTableView()
+        presenter?.viewDidLoad()
     }
     
     private func setTableView(){
@@ -58,5 +57,10 @@ extension InstaListController: UITableViewDelegate,UITableViewDataSource{
 }
 
 extension InstaListController: InstaListViewProtocol{
+    func showPost() {
+        view.backgroundColor = .purple
+        setTableView()
+    }
+    
     
 }

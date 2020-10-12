@@ -21,7 +21,6 @@ class NetflixListController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .black
-        setTableViewUI()
         presenter?.viewDidLoad()
         
     }
@@ -54,6 +53,7 @@ class NetflixListController: UIViewController{
 
 extension NetflixListController: NetflixListProtocol{
     func showPost() {
+        setTableViewUI()
         movieTableView.reloadData()
         dramaTableView.reloadData()
     }

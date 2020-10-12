@@ -17,11 +17,10 @@ class NaverListController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .green
-        setTableViewUI()
+        presenter?.viewDidLoad()
     }
     
-    private func setTableViewUI(){
+    public func setTableViewUI(){
         self.view.addSubview(naverTableView)
         naverTableView.snp.makeConstraints({ (make) in
             make.top.equalTo(self.view.safeAreaLayoutGuide).offset(40)
@@ -55,6 +54,10 @@ extension NaverListController: UITableViewDataSource,UITableViewDelegate{
 
 extension NaverListController: NaverListProtocol{
     func showPost() {
+        
+        view.backgroundColor = .green
+        setTableViewUI()
         naverTableView.reloadData()
     }
+    
 }

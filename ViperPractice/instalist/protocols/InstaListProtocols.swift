@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 protocol InstaListViewProtocol: class{
-    
+    func showPost()
 }
 
 protocol InstaListWireFrameProtocol: class{

@@ -16,7 +16,7 @@ class InstaListPresenter: InstaListPresenterProtocol{
     var wireFrame: InstaListWireFrameProtocol?
     
     func viewDidLoad() {
-        
+        view?.showPost()
     }
     
     
